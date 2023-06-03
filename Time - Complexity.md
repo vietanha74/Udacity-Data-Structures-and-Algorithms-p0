@@ -23,8 +23,9 @@ Task4:
 1.The first two for loops iterate through the "calls" and "texts" lists. Assume number of elements in the "calls" list is "n" and the number of elements in the "texts" list is "m"
 => O(m) + O(n) = O(m + n)
 2. The third for loop iterate"outgoingcalls" set, which contains "k" elements (unique phone numbers). => O(k)
+ - Checking if a phone number  in a set => O(1).
  - Adding elements to the "marketerphone" => O(1)
- - Printing the "marketerphone" numbers=> O(k)
  => O(k)
+3. Sorting the "marketerphone" set has a time complexity of O(j log j), where "j" is the number of elements in the set.
 
-1 + 2 ==> O(m + n + k)
+1 + 2 + 3 => O(n + m + k + j log j)

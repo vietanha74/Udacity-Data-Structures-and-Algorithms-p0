@@ -79,4 +79,4 @@ for call in calls:
               NumberRecvFrom080 += 1
 
 percent = (float(NumberRecvFrom080)/float(Number080))*100
-print("{} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.".format(percent))
+print("{} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.".format(round(percent, 2)))
